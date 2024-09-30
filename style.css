@@ -3,9 +3,18 @@ body{
     font-family: bai jamjurre;
 }
 
+#container {
+ display:  flex;
+}
+
+.catoa{
+    margin: 1rem 1rem;
+    background-color: blueviolet;
+}
+
 footer{
     background-color: blueviolet
-    color: blueviolet;
+    color: blue;
     position: fixed;
     bottom: 0;
     width: 100;
