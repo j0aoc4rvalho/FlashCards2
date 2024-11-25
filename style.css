@@ -81,5 +81,40 @@
   }
    
   .cartao__conteudo__resposta {
+
     transform: rotateY(180deg);
+
+  }
+
+
+   .cartao__conteudo__pergunta,
+   .cartao__conteudo__resposta{
+    backface-visibility: hidden;
+
    }
+
+  .cartao__conteudo__resposta {
+    transform: rotateY(180reg);
+    background-color: #00F4BF;(0, 244, 191, 0.2)
+    border: 4px solid var( --card-back-color);
+  }
+
+  @media(max-width: 500px){
+
+    body {
+      background: url(´img?bg= mobile.webp`);
+   }
+
+   .cartao{
+    flex: 1 0 calc(100% - 1 rem);
+  
+   }
+
+   .cartao__conteudo h3[
+    font-size: 3vw;
+   ]
+
+   .cartao__conteudo p{
+    font-size: 3.8vw;
+   }
+  }
